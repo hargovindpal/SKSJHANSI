@@ -210,10 +210,13 @@ li a {
     width: 23%;
     margin:10px;
     height: 370px;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),
+    box-shadow: 0 4px 10px -1px rgba(0,0,0,.5),
     0 2px 4px -2px rgba(0,0,0,.1);
   }
-  
+  .card:hover{
+    box-shadow: 0 4px 20px -1px rgba(0,0,0,.5),
+    0 2px 4px -2px rgba(0,0,0,.1);
+  }
   .top {
     display: flex;
     justify-content: center;
@@ -222,12 +225,15 @@ li a {
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 0.75rem;
-    border: 5px solid #4D241C;
+    border: 5px solid var(--golden-color);
     background-color: white;
     box-shadow: 0 5px 5px -3px brown,0 4px 6px -4px brown;
     height: 10rem;
     width: 17rem;
 
+  }
+  .top i {
+    color:#4D241C;
   }
   .top:hover{
     color:white;
@@ -289,9 +295,11 @@ li a {
     color: #4D241C;
     position: relative;
     border: 5px solid var(--golden-color);
+    transition: all 0.2s ease-in;
   }
   .card-body:hover{
     background-color: #4D241C;
+    transition: all 0.2s ease-in;
   }
   .card-body:hover .content{
     color: white;
