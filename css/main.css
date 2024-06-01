@@ -222,15 +222,21 @@ li a {
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 0.75rem;
-    background-color: var(--golden-color);
+    border: 5px solid #4D241C;
+    background-color: white;
     box-shadow: 0 5px 5px -3px brown,0 4px 6px -4px brown;
     height: 10rem;
     width: 17rem;
 
   }
-  .top:hover i{
-    color:var(--green-color);
+  .top:hover{
+    color:white;
+    border: 5px solid var(--golden-color);
+    background-color:var(--wheat-color);
     cursor: pointer;
+  }
+  .top:hover i{
+    color:white;
   }
   
   .info {
@@ -277,17 +283,26 @@ li a {
     width: 850px;
     display: flex;
     flex-direction: column;
-    background: #4D241C ;
+    background: white ;
     padding:20px;
     border-radius: 0 100px 100px 0;
-    color: #fff;
+    color: #4D241C;
     position: relative;
     border: 5px solid var(--golden-color);
+  }
+  .card-body:hover{
+    background-color: #4D241C;
+  }
+  .card-body:hover .content{
+    color: white;
+  }
+  .card-body:hover i{
+    background-color: white;
   }
   .card-body .content{
     margin-left:150px;
     padding-top:10px;
-    color: white;
+    color: #4D241C;
   }
   .card-body .info:before{
     content: "\f10d";
@@ -347,7 +362,7 @@ li a {
     margin-left:10px;
     font-size: 35px;
     margin-top:2rem;
-    color:var(--wheat-color);
+    color:#4D241C;
     transition:all 0.2s ease-in;
     border:3px solid transparent;
     cursor: pointer;
@@ -417,7 +432,7 @@ span{
 }
 
 .ftr-section{
-    background-color: #4D241C;
+    background-color:var(--wheat-color);
 }
 .ftr-top{
     display: flex;
@@ -441,9 +456,11 @@ span{
     justify-content: center;
     align-items: center;
     color:white;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 700;
     line-height: 50px;
 }
+
 .qr-code{
     width: 100%;
     cursor: pointer;
@@ -468,10 +485,11 @@ span{
 }
 
 .ftr-bottom .content{
-    
+
     color:#4D241C;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 800;
+    
 }
 
 
