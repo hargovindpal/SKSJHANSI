@@ -87,13 +87,13 @@ i.headicon{
     justify-content: space-between;
     font-family: Helvetica Neue;
 }
-.logo span>h1{
+.logo .logo-text h1{
     margin-top:50px;
     font-size: 3vw;
     font-weight: bold;
     color:var(--wheat-color);
 }
-.logo span h4{
+.logo .logo-text h4{
     margin-top:0px;
     margin-left:25px;
     font-size: 20px;
