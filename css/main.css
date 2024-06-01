@@ -269,6 +269,66 @@ li a {
     background-color: rgba(0, 140, 255, 0.082);
   }
   
+/*Contact css Starts*/
+
+.contact{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.form{
+   box-shadow: #eaf6ff 0px 10px 20px,
+   #eaf6ff 0px 8px 24px,
+   #eaf6ff 0px 16px 56px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 30px;
+    width: 100%;
+    padding:10px;
+}
+.form-container .row{
+    width: 100%;
+    margin:10px;
+}
+.form-container .row .item{
+    width: 100%;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 350px;
+    box-shadow: var(--golden-color) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+     rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    box-shadow: var(--golden-color) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+     rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}
+
+
+
+.contact-image{
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
 
   /* Team css starts*/
 
@@ -512,6 +572,15 @@ span{
     font-weight: 800;
     
 }
+
+
+
+
+
+
+
+
+
 
 
 
