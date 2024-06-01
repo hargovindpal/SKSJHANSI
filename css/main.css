@@ -379,7 +379,7 @@ li a {
     right:20px;
     margin-left:15px;
     font-size: 35px;
-    color:white;
+    color:#4D241C;
     transition:all 0.2s ease-in;
     border:3px solid transparent;
     cursor: pointer;
@@ -439,13 +439,26 @@ span{
     transition: all 0.4s ease-in;
 }
 
+/* Footer css starts*/
+
 .ftr-section{
-    background-color:var(--wheat-color);
+   background-color:var(--golden-color);
 }
 .ftr-top{
     display: flex;
     justify-content: space-between;
     padding:0 70px;
+}
+.rating{
+    background-color: white;
+    border-radius:10px;
+    border: 5px solid #4D241C;
+    padding:5px;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+.rating:hover img{
+    mix-blend-mode: difference;
 }
 
 .ftr-content{
@@ -458,12 +471,12 @@ span{
 
 .ftr-content .column{
     padding: 5px;
-    width: 22%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:white;
+    color: white;
     font-size: 15px;
     font-weight: 700;
     line-height: 50px;
@@ -480,7 +493,7 @@ span{
 
 .ftr-content .column li:hover{
     background-color: transparent !important;
-    color: var(--golden-color);
+    color: #4D241C;
 }
 
 .ftr-bottom{
@@ -489,12 +502,12 @@ span{
     width: 100%;
     height: 50px;
     padding:10px;
-    background-color: var(--golden-color);
+    background-color: var(--wheat-color);
 }
 
 .ftr-bottom .content{
 
-    color:#4D241C;
+    color:white;
     font-size: 15px;
     font-weight: 800;
     
