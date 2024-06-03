@@ -87,12 +87,7 @@ i.headicon{
     justify-content: space-between;
     font-family: Helvetica Neue;
 }
-.logo .logo-text h1{
-    margin-top:50px;
-    font-size: 3vw;
-    font-weight: bold;
-    color:var(--wheat-color);
-}
+
 .logo .logo-text h4{
     margin-top:0px;
     margin-left:25px;
@@ -101,6 +96,27 @@ i.headicon{
     color:rgba(3, 73, 18, 0.87);
 
 }
+.logo-text h1, .heading{
+    margin-top:50px;
+    font-size: 3vw;
+    font-weight: bold;
+    background: linear-gradient(to right, red, var(--green-color));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: animate 1s alternate-reverse infinite;
+}
+@keyframes animate {
+    0% {
+        background: linear-gradient(to right, var(--green-color), red);
+        background-position: 0% 50%;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
 figure img{
     height:140px;
     width: 140px;
@@ -123,8 +139,8 @@ figure img{
 }
 #button2{
     
-    margin-right:20px;
-    height:35px;
+    right:20px;
+    height:40px;
     padding:5px 10px;
     border:none;
     border-radius: 5px;
@@ -136,8 +152,6 @@ figure img{
     outline: none;
     box-shadow: 0 4px 6px -1px rgba(33,150,243,.4),0 2px 4px -2px rgba(33,150,243,.4);
     background-color: var(--wheat-color);
-
-
 }
 
 #button2:hover{
@@ -286,20 +300,25 @@ li a {
     flex-direction: column;
     justify-content: flex-end;
     line-height: 30px;
+    max-width: 100%;
     width: 100%;
     padding:10px;
 }
 .form-container .row{
     width: 100%;
-    margin:10px;
+    margin:20px;
 }
 .form-container .row .item{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 input{
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    padding-left:10px;
     height: 40px;
     width: 350px;
     box-shadow: var(--golden-color) 0px 4px 16px,
@@ -309,25 +328,21 @@ input{
 textarea{
     border: none;
     border-radius: 5px;
+    padding-left:10px;
     width: 350px;
     box-shadow: var(--golden-color) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px,
      rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
 }
-
-
-
+#submit{
+    position: absolute;
+    right: 20px;
+    margin-top:10px;
+}
 .contact-image{
     flex-grow: 1;
 }
-
-
-
-
-
-
-
 
 
   /* Team css starts*/
@@ -335,7 +350,7 @@ textarea{
 
 .team-icon{
     color:#b36237;
-    margin-top:-40px !important;
+    margin-top:180px !important;
 }
 
  .team-member{
