@@ -589,6 +589,24 @@ span{
 }
 
 
+#scrollbtn{
+    display: none;
+    position: fixed;
+    right:0px;
+    bottom:20px;
+    z-index: 9999;
+    background-color: #4D241C;
+    color: var(--golden-color);
+    font-weight: 800;
+    height: 70px;
+    width:70px;
+    padding:5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
 
 
 
