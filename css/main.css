@@ -662,6 +662,25 @@ span{
 }
 
 
+/* GALLERY PAGE CSS STARTS*/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.gallery img{
+    border-radius: 5px;
+    margin-top:10px;
+    height: 300px;
+    width: 250px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
 
 
 
