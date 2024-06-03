@@ -318,7 +318,7 @@ li a {
     padding:10px;
 }
 .form-container .row{
-    width: 100%;
+    max-width: 100%;
     margin:20px;
 }
 .form-container .row .item{
@@ -691,6 +691,21 @@ span{
 /* Media Query*/
 
 @media only screen and (max-width: 767px) {
+
+    .section1{
+        width: 100%;
+    }
+    .section-container{
+
+        flex-direction: column;
+        width: 100%;
+        padding:10px;
+        
+    }
+    .section-container .content{
+        padding: 15px;
+        width: 100%;
+    }
     .card {
         width: 100%;
         margin: 10px 0;
@@ -720,6 +735,10 @@ span{
         margin-top: 20px !important;
         width: 100%;
         margin: 10px;
+    }
+    .form-container .row .item{
+        width: 100%;
+    
     }
     input, textarea {
         width: 650px;
