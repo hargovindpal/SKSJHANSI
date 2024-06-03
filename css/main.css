@@ -52,8 +52,8 @@ color:var(--green-color) !important;
 .section-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     flex-direction: row;
+    justify-content: space-around;
     width: 100%;
     padding:20px;
     background-color: #f2f1ee;
@@ -626,7 +626,13 @@ span{
 
 
 /*ABOUT PAGE CSS STARTS */
+
+.section-container .content{
+    width: 50%;
+}
 .image{
+   margin-left:150px;
+    margin-top:50px;
     height: 350px;
     width: 400px;
     background-color: #b36237;
@@ -655,8 +661,8 @@ span{
     z-index: 1;
 }
 
-.abouttxt{
-    padding: 50px;
+.txtcontent{
+    padding: 20px;
     justify-content: justify;
     font-size: 16px;
 }
