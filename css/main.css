@@ -307,11 +307,7 @@ li a {
  justify-content: space-between;
  align-items: center;
 }
-.form{
-   box-shadow: #eaf6ff 0px 10px 20px,
-   #eaf6ff 0px 8px 24px,
-   #eaf6ff 0px 16px 56px;
-}
+
 .form-container{
     display: flex;
     flex-direction: column;
@@ -628,6 +624,7 @@ span{
 /*ABOUT PAGE CSS STARTS */
 
 .section-container .content{
+    padding: 15px;
     width: 50%;
 }
 .image{
