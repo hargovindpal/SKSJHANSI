@@ -705,11 +705,11 @@ span{
 
         flex-direction: column;
         width: 100%;
-        padding:10px;
+        padding:5px;
         
     }
     .section-container .content{
-        padding: 15px;
+        padding: 0px !important;
         width: 100%;
     }
     .card {
@@ -725,18 +725,44 @@ span{
         font-size: 3vw;
     }
     .logo img{
-        height: 100px;
+        height: 50px;
     }
     .logo-text h1 {
         font-size: 4vw;
     }
     .logo .logo-text h4 {
-        font-size: 15px;
+        font-size: 6px;
     }
     ul li {
-        padding: 5px 10px;
-        font-size: 14px;
+        padding: 3px 5px;
+        font-size: 6px;
     }
+    .carousel-caption{
+        top:20px !important;
+       
+    }
+
+    .carousel-caption h1{
+        font-size: 10px;
+    }
+    .carousel-caption h3{
+
+        font-size: 8px;
+    }
+    .carousel-indicators{
+        top:65px;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        top:30px !important;
+       height: 20px !important;
+       width: 65px !important;
+    }
+    .carousel-control-prev-icon::before, .carousel-control-next-icon::before{
+        font-size: 30px !important;
+    }
+
+
+
     .form-container .row {
         margin-top: 20px !important;
         width: 100%;
@@ -747,7 +773,7 @@ span{
     
     }
     input, textarea {
-        width: 650px;
+       
         height: 50px;
         font-size: 18px;
     }
@@ -760,9 +786,15 @@ span{
         height: 45px;
     }
     #button1 {
-        font-size: 14px;
-        padding: 5px 10px;
-        height: 35px;
+        margin:5px !important;
+        font-size: 8px;
+        padding: 5px 5px;
+        height: 25px;
+    }
+    iframe{
+        margin: 0px !important;
+        width: fit-content;
+        padding:10px;
     }
 
 }
