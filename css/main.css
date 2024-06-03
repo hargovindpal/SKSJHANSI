@@ -685,10 +685,16 @@ span{
 }
 
 
+/* Media Query for laptop*/
 
 
+@media only screen and (max-width: 1024px) {
 
-/* Media Query*/
+
+}
+
+
+/* Media Query for mobile*/
 
 @media only screen and (max-width: 767px) {
 
