@@ -97,7 +97,7 @@ i.headicon{
 
 }
 .logo-text h1, .heading{
-    margin-top:50px;
+    margin-top:10px;
     font-size: 3vw;
     font-weight: bold;
     background: linear-gradient(to right, red, var(--green-color));
