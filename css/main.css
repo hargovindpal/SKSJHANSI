@@ -28,9 +28,13 @@ li{
     padding-bottom:10px;
 }
 .heading{
-    font-weight: 800;
-    font-size: 35px;
-    color: var(--green-color);
+    margin-top:0px;
+    font-size: 2vw;
+    font-weight: bold;
+    background: linear-gradient(to right, red, var(--green-color));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: animate 1s alternate-reverse infinite;
     
 }
 .content a:hover{
@@ -47,6 +51,7 @@ color:var(--green-color) !important;
 }
 .section-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     width: 100%;
@@ -96,7 +101,7 @@ i.headicon{
     color:rgba(3, 73, 18, 0.87);
 
 }
-.logo-text h1, .heading{
+.logo-text h1{
     margin-top:10px;
     font-size: 3vw;
     font-weight: bold;
@@ -202,7 +207,7 @@ li a {
 /* SLIDER CSS STARTS */
 
 .carousel, .mgn-minus{
-    top:-25px;
+    margin-top:-25px;
     object-fit:fill;
 }
 .carousel img{
@@ -219,6 +224,7 @@ li a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     border-radius: 0.75rem;
     background-color: white;
     width: 23%;
@@ -234,6 +240,7 @@ li a {
   .top {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-clip: border-box;
     margin-top: 1.5rem;
     margin-left: 1rem;
@@ -242,12 +249,22 @@ li a {
     border: 5px solid var(--golden-color);
     background-color: white;
     box-shadow: 0 5px 5px -3px brown,0 4px 6px -4px brown;
-    height: 10rem;
-    width: 17rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
 
   }
   .top i {
     color:#4D241C;
+  }
+ 
+  .top img {
+    object-fit:fill;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+
+    
   }
   .top:hover{
     color:white;
@@ -608,6 +625,41 @@ span{
 }
 
 
+/*ABOUT PAGE CSS STARTS */
+.image{
+    height: 350px;
+    width: 400px;
+    background-color: #b36237;
+    border-radius: 200px 89px 187px 37px;
+    -moz-border-radius: 200px 89px 187px 37px;
+    -webkit-border-radius: 200px 89px 187px 37px;
+    z-index: 999;
+   
+}
+
+.image::before{
+    position: absolute;
+    content:"";
+    background-image:url('../assets/team/4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 20px;
+    height: 350px;
+    width: 350px;
+    background-color: #4D241C;
+    border-radius: 200px 89px 187px 37px;
+    -moz-border-radius: 200px 89px 187px 37px;
+    -webkit-border-radius: 200px 89px 187px 37px;
+    border: 5px solid #000000;
+    z-index: 1;
+}
+
+.abouttxt{
+    padding: 50px;
+    justify-content: justify;
+    font-size: 16px;
+}
 
 
 
