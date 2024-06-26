@@ -554,21 +554,35 @@ span{
     justify-content: space-between;
     padding:0 70px;
 }
-.rating{
-    background-color: white;
+.joinus{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    background-color:azure;
     border-radius:10px;
-    border: 5px solid #4D241C;
+    border: none;
     padding:5px;
     cursor: pointer;
-    background-size: 100% 100%;
 }
-.rating:hover img{
-    mix-blend-mode: difference;
+.joinus button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color:#4D241C;
+    color: white;
+    font-weight: 700;
+}
+.joinus button:hover{
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color:#b36237;
+    color: white;
+    font-weight: 700;
 }
 
 .ftr-content{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     padding:10px;
     width: 100%;
 }
@@ -576,7 +590,7 @@ span{
 
 .ftr-content .column{
     padding: 5px;
-    width: 20%;
+    width: 22%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -639,9 +653,15 @@ span{
 
 
 /*ABOUT PAGE CSS STARTS */
+.section-container{
+    display: flex;
+    justify-content: center;
+}
 
 .section-container .content{
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     width: 50%;
 }
 .image{
