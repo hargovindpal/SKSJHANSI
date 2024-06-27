@@ -603,10 +603,11 @@ span{
     justify-content:center;
     column-gap: 30px;
     padding:10px;
+    margin-top: 30px;
     
 }
 .ftr-content .column{
-    margin-top: 50px;
+    
     padding: 5px;
     width: 22%;
     height: fit-content;
