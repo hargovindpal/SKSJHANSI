@@ -11,6 +11,8 @@
     --wheat-color: #b36237;
     --golden-color:#D0AB6D;
 }
+
+
 body{
     overflow-x: hidden;
     background-color: #f2f1ee;
@@ -547,7 +549,7 @@ span{
 /* Footer css starts*/
 
 .ftr-section{
-   background-color:var(--golden-color);
+   background-color:rgb(204, 250, 250);
 }
 .ftr-top{
     display: flex;
@@ -581,26 +583,42 @@ span{
 }
 
 .ftr-content{
-    display: flex;
-    justify-content:space-around;
-    padding:10px;
     width: 100%;
+    display: flex;
+    justify-content:center;
+    column-gap: 30px;
+    padding:10px;
+    
 }
 
 
 .ftr-content .column{
+    margin-top: 50px;
     padding: 5px;
     width: 22%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    color: white;
+    align-items: left;
     font-size: 15px;
     font-weight: 700;
-    line-height: 50px;
+}
+.ftr-content .column h5{
+    font-weight: 700;
+}
+.ftr-content li {
+    font-size: 16px;
+    line-height: 40px;
+    color: #4D241C;
 }
 
+.ftr-content li:hover{
+    color: var(--green-color);
+}
+.ftr-content .column p{
+    font-size: 16px;
+}
 .qr-code{
     width: 100%;
     cursor: pointer;
@@ -610,18 +628,13 @@ span{
 }
 
 
-.ftr-content .column li:hover{
-    background-color: transparent !important;
-    color: #4D241C;
-}
-
 .ftr-bottom{
     display: flex;
     justify-content: center;
     width: 100%;
     height: 50px;
     padding:10px;
-    background-color: var(--wheat-color);
+    background-color:#4D241C;
 }
 
 .ftr-bottom .content{
