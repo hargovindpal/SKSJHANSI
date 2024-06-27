@@ -172,7 +172,7 @@ figure img{
     position:sticky;
     margin:0px;
     z-index: 9999;
-    height: 52px;
+    height: 52px auto;
     width: 100%;
     
 }
@@ -531,10 +531,11 @@ span{
 /* sponsers css starts*/
 .sponsers{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    flex-wrap: wrap;
 }
-.sponsers img{
-    margin:20px;
+.sponsers figure{
+    margin:10px;
     border: 2px solid var(--golden-color);
     transition: all 0.4s ease-in;
 }
@@ -554,6 +555,7 @@ span{
 .joinus{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap:10px;
     background-color:azure;
     border-radius:10px;
@@ -568,6 +570,7 @@ span{
     background:linear-gradient(to right, #4D241C, #b36237);
     color: white;
     font-weight: 700;
+    width: fit-content;
 }
 .joinus button:hover{
     border-radius: 5px;
@@ -810,9 +813,22 @@ span{
     .logo .logo-text h4 {
         font-size: 6px;
     }
+    .nav ul{
+        flex-wrap: wrap;
+
+    }
     ul li {
+        flex-wrap: wrap;
         padding: 3px 5px;
         font-size: 6px;
+    }
+    .content{
+        width: 100%;
+        padding:10px;
+    }
+    .form{
+        width: 100%;
+        padding:5px;
     }
     .carousel-caption{
         top:20px !important;
@@ -838,8 +854,14 @@ span{
         font-size: 30px !important;
     }
 
-
-
+.sponsers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+}
+.sponsers figure{
+    width: 40%;
+}
     .form-container .row {
         margin-top: 20px !important;
         width: 100%;
@@ -873,7 +895,23 @@ span{
         width: fit-content;
         padding:10px;
     }
-
+    .ftr-top{
+        flex-direction: column;
+        padding:20px;
+    }
+    .joinus{
+        flex-direction: column;
+    }
+    .joinus input{
+        width: 100%;
+    }
+    .ftr-content{
+        flex-direction: column;
+    }
+    .ftr-content .column{
+        width: 95%;
+        align-items: center;
+    }
 }
 
 
