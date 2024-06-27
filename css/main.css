@@ -732,7 +732,7 @@ span {
     background: linear-gradient(to right, #4D241C, #b36237)
 }
 
-.ftr-bottom .content {
+.ftr-bottom .fullcontent {
     width: 100% !important;
     color: white;
     font-size: 15px;
@@ -827,7 +827,7 @@ span {
 .txtcontent {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     padding: 20px;
     justify-content: justify;
