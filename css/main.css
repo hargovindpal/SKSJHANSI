@@ -468,9 +468,8 @@ textarea{
 
   .social{
     display: flex;
-    justify-content: space-evenly;
-    margin-left:100px;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
 }
  .social i{
     right:20px;
@@ -482,16 +481,9 @@ textarea{
     border:3px solid transparent;
     cursor: pointer;
 }
-.social-ftr i{
-    right:20px;
-    margin-left:15px;
-    font-size: 35px;
-    color:#4D241C;
-    transition:all 0.2s ease-in;
-    border:3px solid transparent;
-    cursor: pointer;
-}
-i.fa-facebook:hover{
+
+
+ i.fa-facebook:hover{
     color:navy;
     background-color: white;
     border-radius: 50px;
@@ -518,7 +510,8 @@ i.fa-twitter:hover{
     border-radius: 50px;
     border:3px solid #D0AB6D;
     transition:all 0.2s ease-in;
-}
+} 
+
 
 .team-info{
     display: flex;
@@ -549,12 +542,14 @@ span{
 /* Footer css starts*/
 
 .ftr-section{
-   background-color:rgb(204, 250, 250);
+   background-color:rgb(231, 252, 252);
 }
 .ftr-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding:0 70px;
+    font-family:rubik, sans-serif;
 }
 .joinus{
     display: flex;
@@ -570,18 +565,38 @@ span{
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
-    background-color:#4D241C;
+    background:linear-gradient(to right, #4D241C, #b36237);
     color: white;
     font-weight: 700;
 }
 .joinus button:hover{
     border-radius: 5px;
     padding: 5px 15px;
-    background-color:#b36237;
+    background:linear-gradient(to right, #b36237, #4D241C);
     color: white;
     font-weight: 700;
 }
 
+
+.ftr-top-right{
+    display: flex;
+    column-gap: 20px;
+}
+
+.ftr-top-right .bold{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 12px 0 0;
+    text-transform: none;
+}
+.ftr-top-right-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 .ftr-content{
     width: 100%;
     display: flex;
@@ -590,8 +605,6 @@ span{
     padding:10px;
     
 }
-
-
 .ftr-content .column{
     margin-top: 50px;
     padding: 5px;
@@ -603,6 +616,19 @@ span{
     align-items: left;
     font-size: 15px;
     font-weight: 700;
+}
+.payment-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    width: 100%;
+    object-fit: contain;
+}
+.payment-option img{
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
 }
 .ftr-content .column h5{
     font-weight: 700;
