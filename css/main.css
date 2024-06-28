@@ -1065,6 +1065,7 @@ td {
     }
 
     .heading {
+        padding-top: 15px !important;
         font-size: 16px !important;
     }
 
