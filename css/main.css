@@ -846,6 +846,9 @@ span {
     font-size: 16px;
     color: var(--green-color);
 }
+.button3 a{
+    color: white;
+}
 ol{
     width: 100% !important;
 }
