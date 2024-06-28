@@ -1087,11 +1087,11 @@ td {
     }
 
     .logo-text h1 {
-        font-size: 4vw;
+        font-size: 5vw !important;
     }
 
     .logo .logo-text h4 {
-        font-size: 6px;
+        font-size: 10px !important;
     }
 
     .slider-content {
