@@ -47,6 +47,16 @@ li {
     animation: animate 1s alternate-reverse infinite;
 
 }
+.ftrheading {
+    margin-top: 0px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    background: linear-gradient(to right, red, var(--green-color));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: animate 1s alternate-reverse infinite;
+
+}
 
 .content a:hover {
     cursor: pointer;
