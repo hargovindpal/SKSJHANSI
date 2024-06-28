@@ -371,8 +371,10 @@ ul li:hover>ul {
 
 .info {
     border: none;
-    padding: 1.5rem;
-    text-align: center;
+    padding: 0.5rem;
+    text-align: left;
+    text-justify: justify;
+
 }
 
 .title {
@@ -382,6 +384,7 @@ ul li:hover>ul {
     font-weight: 600;
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .bottom {
