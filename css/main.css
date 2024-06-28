@@ -1064,6 +1064,10 @@ td {
         flex-direction: column !important;
     }
 
+    .heading {
+        font-size: 16px !important;
+    }
+
     .card {
         width: 100%;
         margin: 10px 0;
