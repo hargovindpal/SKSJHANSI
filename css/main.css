@@ -1018,11 +1018,11 @@ td {
     }
 
     .top-element {
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 
     .top-element i {
-        font-size: 15px !important;
+        font-size: 20px !important;
     }
 
     .navbar {
@@ -1075,9 +1075,7 @@ td {
         border-radius: 75px;
     }
 
-    .heading {
-        font-size: 3vw;
-    }
+
 
     .logo img {
         height: 50px;
@@ -1124,20 +1122,14 @@ td {
     }
 
     .carousel-indicators {
-        top: 65px;
+        top: 80px !important;
     }
 
     .carousel-control-prev,
     .carousel-control-next {
-        top: 30px !important;
-        height: 20px !important;
-        width: 65px !important;
+        display: none !important;
     }
 
-    .carousel-control-prev-icon::before,
-    .carousel-control-next-icon::before {
-        font-size: 30px !important;
-    }
 
     .sponsers {
         display: flex;
@@ -1162,7 +1154,7 @@ td {
 
     input,
     textarea {
-        width: 50% !important;
+        width: 100% !important;
         height: 50px;
         font-size: 18px;
     }
@@ -1190,10 +1182,6 @@ td {
         padding: 10px;
     }
 
-    .ftr-top {
-        flex-direction: column;
-        padding: 20px;
-    }
 
     .joinus {
         flex-direction: column;
