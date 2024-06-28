@@ -812,7 +812,6 @@ span {
     max-width: 100%;
 }
 
-
 .imgcontent {
     display: flex;
     justify-content: center;
@@ -821,11 +820,28 @@ span {
     padding: 10px;
     width: 100%;
 }
-.imgcontent img.team-img-dimention{
+.imgcontent img.img-dimention{
     width: 350px !important;
     height: 400px;
     border-radius: 20px;
     box-shadow:0px 0px 30px -10px #4D241C;
+}
+.team-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:20px;
+    line-height: 10px;
+}
+.team-title .name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.team-title .designation{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--green-color);
 }
 
 
