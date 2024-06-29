@@ -43,6 +43,9 @@ li {
 .pd-bottom {
     padding-bottom: 10px;
 }
+.pd-full{
+    padding: 10px;
+}
 
 .heading {
     margin-top: 0px;
@@ -126,6 +129,9 @@ i.headicon {
     font-size: 16px;
     color: white;
     font-weight: 500;
+}
+.top-element li a{
+    color: white;
 }
 
 .contact i {
@@ -489,9 +495,10 @@ textarea {
 }
 
 .slider-content .team-img {
+    background:linear-gradient(to right, #D0AB6D, rgb(154, 241, 241) );
     height: 250px;
     width: 250px;
-    border-radius: 10%;
+    border-radius: 5%;
     border: 2px solid #4D241C;
 }
 
@@ -738,6 +745,9 @@ span {
     font-size: 15px;
 
 }
+.ftr-content li a{
+    color: #4D241C;
+}
 
 .line {
     height: 4px !important;
@@ -858,8 +868,11 @@ span {
 .imgcontent img.img-dimention {
     width: 350px !important;
     height: 400px;
-    border-radius: 20px;
+    border-radius: 10px;
+    border: 2px solid #b36237;
     box-shadow: 0px 0px 30px -10px #4D241C;
+    background:linear-gradient(to right, #D0AB6D, rgb(237, 245, 245) );
+    
 }
 
 .team-title {
@@ -950,6 +963,12 @@ ol {
     padding: 20px;
     justify-content: justify;
     font-size: 16px;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center !important;
 }
 
 
