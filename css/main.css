@@ -349,12 +349,18 @@ ul li:hover>ul {
     height: 370px;
     box-shadow: 0 4px 10px -1px rgba(0, 0, 0, .5),
         0 2px 4px -2px rgba(0, 0, 0, .1);
+    transition: all 0.5s ease-in-out;
 }
 
 .card:hover {
     box-shadow: 0 4px 20px -1px rgba(0, 0, 0, .5),
         0 2px 4px -2px rgba(0, 0, 0, .1);
+        color: white;
+    background:linear-gradient(to right, #b36237, #D0AB6D);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
+
 
 .top {
     display: flex;
@@ -387,12 +393,7 @@ ul li:hover>ul {
 
 }
 
-.top:hover {
-    color: white;
-    border: 5px solid var(--golden-color);
-    background-color: var(--wheat-color);
-    cursor: pointer;
-}
+
 
 .top:hover i {
     color: white;
@@ -991,6 +992,9 @@ ol {
     justify-content: space-around !important;
     align-items: center;
     object-fit: fill;
+    gap:30px;
+    padding:10px;
+    padding-top: 30px;
 
 }
 
@@ -998,11 +1002,10 @@ ol {
     border-radius: 5px;
     border: 2px solid #4D241C;
     object-fit: fill;
-    margin-top: 10px;
-    max-height: 400px;
-    width: auto;
+    height: 400px;
+    width: 300px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in;
 }
 
 .newsgallery img:hover {
@@ -1104,8 +1107,6 @@ td {
         width: 150px;
         border-radius: 75px;
     }
-
-
 
     .logo img {
         height: 50px;
