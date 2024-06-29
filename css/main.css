@@ -188,7 +188,7 @@ i.headicon {
 }
 .logo .logo-text h4 {
     font-size: 20px;
-    font-weight:700;
+    font-weight:bold;
     background: linear-gradient(to right, red, var(--green-color));
     -webkit-background-clip: text;
     color:transparent;
@@ -798,14 +798,7 @@ span {
     font-size: 16px;
 }
 
-.qr-code {
-    width: 100%;
-    cursor: pointer;
-}
 
-.qr-code img {
-    background-size: 100% 100%;
-}
 
 
 .ftr-bottom {
@@ -813,20 +806,10 @@ span {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: fit-content;
-    padding-left: 15%;
+    padding-top: 15px;
+    color: white;
     background: linear-gradient(to right, #4D241C, #b36237)
 }
-
-.ftr-bottom .fullcontent {
-    width: 100% !important;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    height: fit-content;
-
-}
-
 
 #scrollbtn {
     display: none;
