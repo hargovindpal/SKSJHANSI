@@ -20,6 +20,10 @@ hr {
     opacity: 1;
     background-color: white;
 }
+P{
+    text-align: justify;
+}
+
 
 body {
     overflow-x: hidden;
@@ -472,18 +476,24 @@ textarea {
 
 
 /* Team css starts*/
+.bg-color{
+    background-color: rgb(198,243,243);
+}
+
 .slider-content {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
     max-width: 90%;
+    
 }
 
 .slider-content .team-img {
     height: 250px;
     width: 250px;
-    border-radius: 50%;
+    border-radius: 10%;
+    border: 2px solid #4D241C;
 }
 
 .imgcontent {
@@ -732,8 +742,11 @@ span {
 
 .line {
     height: 4px !important;
-    width: 60%;
-    background-color: #000000;
+    width:100%;
+    background-color: #b36237;
+    border-radius: 2px;
+    border: none;
+    opacity: 1;
 }
 
 .payment-option {
