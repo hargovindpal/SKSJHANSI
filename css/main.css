@@ -24,7 +24,6 @@ P{
     text-align: justify;
 }
 
-
 body {
     overflow-x: hidden;
     background-color: #f2f1ee;
@@ -902,9 +901,14 @@ ol {
 
 }
 
+.list-group-item{
+    margin-top:10px;
+}
+
 .list-group-item:hover {
     background-color: var(--golden-color);
     transition: all 0.2s ease-in-out;
+
 }
 
 .image {
