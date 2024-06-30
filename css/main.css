@@ -20,8 +20,14 @@ hr {
     opacity: 1;
     background-color: white;
 }
-P{
+
+p{
     text-align: justify;
+    font-size: 15px;
+
+}
+.font-18{
+    font-size: 18px;
 }
 
 body {
@@ -81,6 +87,35 @@ li {
     flex-direction: column;
     width: 100%;
     background-color: azure;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+   
+   
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap:50px;
+
+}
+.form-section input, .form-section select, .form-section textarea {
+    width: 400px;
+}
+.width-100{
+    width: 100% !important;
+}
+.box-shadow{
+    box-shadow: var(--golden-color) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .section-container {
@@ -186,7 +221,7 @@ i.headicon {
     color: transparent;
     animation: animate 1s alternate-reverse infinite;
 }
-.logo .logo-text h4 {
+.logo-text h4 {
     font-size: 20px;
     font-weight:bold;
     background: linear-gradient(to right, red, var(--green-color));
@@ -333,6 +368,15 @@ ul li:hover>ul {
 
 }
 
+.carousel-caption h1 {
+    font-size: 50px;
+}
+
+.carousel-caption h3 {
+    font-style: italic;
+    font-size: 35px;
+}
+
 
 
 /* CARD SECTION CSS STARTS */
@@ -374,8 +418,8 @@ ul li:hover>ul {
     border: 5px solid var(--golden-color);
     background-color: azure;
     box-shadow: 0 5px 5px -3px brown, 0 4px 6px -4px brown;
-    height: 150px;
     width: 150px;
+    height: 150px;
     border-radius: 75px;
 
 }
@@ -394,16 +438,13 @@ ul li:hover>ul {
 }
 
 
-
-.top:hover i {
-    color: white;
-}
-
 .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
     border: none;
     padding: 0.5rem;
-    text-align: left;
-    text-justify: justify;
 
 }
 
@@ -653,7 +694,7 @@ i.fa-instagram:hover {
     transition: all 0.2s ease-in;
 }
 
-i.fa-twitter:hover {
+i.fa-x-twitter:hover {
     color: var(--green-color);
     background-color: white;
     border-radius: 50px;
@@ -834,7 +875,7 @@ span {
 /*ABOUT PAGE CSS STARTS */
 .section-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .content {
@@ -1019,7 +1060,7 @@ table {
     padding: 10px;
 }
 
-tr {
+.tr-height {
     height: 200px;
 }
 
@@ -1181,6 +1222,20 @@ td {
     .form .form-container .row .item {
         width: 100%;
 
+    }
+    
+    .form-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+        flex-direction: column;
+    }
+    .form-section input{
+        width: 100% !important;
+    }
+    .width-100{
+width: 80% !important;
     }
 
     input,
