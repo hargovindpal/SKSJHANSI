@@ -478,11 +478,13 @@ ul li:hover>ul {
 .form-container {
     line-height: 30px;
     padding: 10px;
+    width: 100%;
+    
 }
 
 .form-container .row {
     width: 100%;
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 .form-container .row .item {
