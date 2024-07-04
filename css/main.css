@@ -215,6 +215,7 @@ i.headicon {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: Helvetica Neue;
 }
 
@@ -835,16 +836,22 @@ span {
 }
 
 
-
-
 .ftr-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 5px 10px;
     color: white;
     background: linear-gradient(to right, #4D241C, #b36237)
+}
+.ftr-bottom p{
+    margin:0px;
+    padding:10px;
+}
+
+.ftrheading{
+    font-size: 16px;
 }
 
 #scrollbtn {
@@ -1087,6 +1094,14 @@ td {
     .top-element i {
         font-size: 20px !important;
     }
+    .top-element li a{
+        display: flex;
+        font-size: 11px;
+    }
+
+    h6{
+        font-size: 14px !important;
+    }
 
     .navbar {
         display: flex !important;
@@ -1148,11 +1163,11 @@ td {
     }
 
     .logo-text h1 {
-        font-size: 5vw !important;
+        font-size: 4.5vw !important;
     }
 
-    .logo .logo-text h4 {
-        font-size: 10px !important;
+   .logo-text h4 {
+        font-size: 3vw !important;
     }
 
     .slider-content {
@@ -1252,8 +1267,9 @@ width: 80% !important;
     #button1 {
         margin: 5px !important;
         font-size: 8px;
-        padding: 5px 5px;
-        height: 25px;
+        padding: 5px 10px;
+        height: 30px;
+     
     }
 
     iframe {
