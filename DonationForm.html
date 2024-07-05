@@ -41,72 +41,106 @@
             <button onclick="window.location.href='donate.html'" class="button3" id="button1">DONATE NOW</button>
         
     </header>
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
-            <li>
-                <a href="#">About</a>
-                <ul class="sub-menu">
-                    <li><a href="IntroductionToSKS.html">Introduction to SKS</a></li>
-                    <li><a href="ourvision.html">Mission & Vision</a></li>
-                    <li><a href="Patron'sMessage.html">Patron's Message</a></li>
-                    <li><a href="President'sMessage.html">President's Message</a></li>
-                    <li><a href="Manager'sMessage.html">Manager's Message</a></li>
-                    <li><a href="Objectives.html">Objectives</a></li>
-                </ul>
-            </li>
-            <li>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
 
-                <a href="#">Events</a>
-                <ul class="sub-menu">
-                    <li><a href="UpcomingEvents.html">Upcoming Events</a></li>
-                    <li><a href="CompletedProject .html">Completed Projects</a></li>
-                    <li><a href="EventGallery.html">Event Gallery</a></li>
-                    <li><a href="NewspapeCips.html">Newspaper clips </a></li>
-                </ul>
-            </li>
-            <li><a href="ourteam.html">Our Team</a></li>
-            <li>
-                <a href="#">Donate</a>
-                <ul class="sub-menu">
-                    <li><a href="WhyDonate.html">Why Donate?</a></li>
-                    <li><a href="HowourDonationHelps.html">How Your Donation Helps</a></li>
-                    <li><a href="donate.html">Donate Now</a></li>
-                </ul>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ABOUT
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="IntroductionToSKS.html">INTRODUCTION TO SKS</a></li>
+                                <li><a class="dropdown-item" href="ourvision.html">MISSION & VISION</a></li>
+                                <li><a class="dropdown-item" href="Patron'sMessage.html">PATRON'S MESSAGE</a></li>
+                                <li><a class="dropdown-item" href="President'sMessage.html">PRESIDENT'S MESSAGE</a></li>
+                                <li><a class="dropdown-item" href="Manager'sMessage.html">MANAGER'S MESSAGE</a></li>
+                                <li><a class="dropdown-item" href="Objectives.html">OBJECTIVES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                EVENTS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="UpcomingEvents.html">UPCOMING EVENTS</a></li>
+                                <li><a class="dropdown-item" href="CompletedProject .html">COMPLETED EVENTS</a></li>
+                                <li><a class="dropdown-item" href="EventGallery.html">EVENTS GALLERY</a></li>
+                                <li><a class="dropdown-item" href="NewspapeCips.html">NEWSPAPER CLIPS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ourteam.html">OUR TEAM</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                DONATE
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="WhyDonate.html">WHY DONATE?</a></li>
+                                <li><a class="dropdown-item" href="HowourDonationHelps.html">HOW YOUR DONATION HELPS</a>
+                                </li>
+                                <li><a class="dropdown-item" href="donate.html">DONATE NOW</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                DOWNLOADS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a href="DonationForm.html">Donation Form</a></li>
+                                <li><a href="MembershipForm.html">Membership Form</a></li>
+                                <li><a href="SocietyRegistration .html">Society Registration</a></li>
+                                <li><a href="ProfessionalVolunteerForm.html">Professional Volunteer Form</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                JOIN US
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="BenefitsofJoining.html">BENEFITS OF JOINING</a></li>
+                                <li><a class="dropdown-item" href="HowtoJoin.html">HOW TO JOIN</a></li>
+                                <li><a class="dropdown-item" href="VolunteerOpportunities.html">VOLUNTEER
+                                        OPPORTUNITIES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="FAQ.html">FAQ</a>
+                        </li>
 
-            </li>
-            <li>
-                <a href="#">Downloads</a>
-                <ul class="sub-menu">
-                    <li><a href="DonationForm.html">Donation Form</a></li>
-                    <li><a href="MembershipForm.html">Membership Form</a></li>
-                    <li><a href="SocietyRegistration .html">Society Registration</a></li>
-                    <li><a href="ProfessionalVolunteerForm.html">Professional Volunteer Form</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Join Us</a>
-                <ul class="sub-menu">
-                    <li><a href="BenefitsofJoining.html">Benefits of Joining</a></li>
-                    <li><a href="HowtoJoin.html">How to Join</a></li>
-                    <li><a href="VolunteerOpportunities.html">Volunteer Opportunities</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Contact Us</a>
-                <ul class="sub-menu">
-                    <li><a href="#">Office Location</a></li>
-                    <li><a href="contact.html">Contact Form</a></li>
-                    <li><a href="#">Social Media Links</a></li>
-                    <li><a href="#">Email Us</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="FAQ.html">FAQ</a>
-            </li>
-        </ul>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </nav>
-
     <div class="section1 mgn-minus pd-top" data-aos="zoom-in-down" data-aos-duration="2000">
         <h2 class="heading">DONATION FORM</h2>
         <div class="section-container">
