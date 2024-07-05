@@ -982,6 +982,39 @@ ol {
     object-fit: fill;
 
 }
+.filter-section{
+    border: 2px solid #b36237;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 20px;
+}
+.gallery-filter ul{
+    display: flex;
+    padding: 10px;
+}
+.gallery-filter ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+   text-wrap: nowrap;
+   gap: 10px;
+}
+.no-shadow{
+    background: none !important;
+    box-shadow: none;
+}
+.search ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    flex-direction: row !important;
+}
 
 .gallery img {
     border-radius: 5px;
@@ -993,7 +1026,6 @@ ol {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
-
 .gallery img:hover {
     transform: scale(1.1);
 }
