@@ -1014,8 +1014,8 @@ ol {
     border-radius: 5px;
     border: 2px solid #4D241C;
     object-fit: fill;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     cursor: pointer;
     transition: all 0.2s ease-in;
 }
