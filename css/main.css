@@ -80,6 +80,7 @@ li {
 
 }
 
+
 .content a:hover {
     cursor: pointer;
     color: var(--green-color) !important;
@@ -744,17 +745,25 @@ span {
 }
 
 /* sponsers css starts*/
-.sponsers {
+.running-projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     flex-wrap: wrap;
-    height: auto;
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #b36237;
+    border-radius:10px;
+    transition: all 0.2s ease-in;
+    font-weight: 700;
 }
 
-.sponsers figure {
-    margin: 10px;
-    border: 2px solid var(--golden-color);
-    transition: all 0.4s ease-in;
+.running-projects:hover{
+    background: linear-gradient(to right, #b36237, #D0AB6D);
+    color: white;
 }
 
 
