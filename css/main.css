@@ -1445,6 +1445,7 @@ width: 80% !important;
 
     .ftr-content .column {
         width: 95%;
-        align-items: center;
+        align-items: left;
+        padding-left:10px;
     }
 }
