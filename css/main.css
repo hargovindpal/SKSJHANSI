@@ -251,6 +251,11 @@ i.headicon {
     }
 }
 
+.column .logo img{
+    height: 100px !important;
+    width: 100px !important;
+}
+
 figure img {
     height: 140px;
     width: 140px;
@@ -732,6 +737,7 @@ span {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: auto;
 }
 
 .sponsers figure {
@@ -739,6 +745,7 @@ span {
     border: 2px solid var(--golden-color);
     transition: all 0.4s ease-in;
 }
+
 
 /* Footer css starts*/
 
