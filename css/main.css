@@ -357,7 +357,19 @@ ul li:hover>ul {
     flex-direction: column;
 }
 
-
+.whatsapp{
+    position: fixed;
+    right:20px;
+    z-index: 9999;
+}
+.whatsapp a i {
+    font-size: 40px;
+}
+.whatsapp:hover i{
+    transform: scale(1.05);
+   filter:drop-shadow(2px 5px 5px #b36237) ;
+ 
+}
 
 
 
@@ -1192,6 +1204,11 @@ td {
         font-size: 15px !important;
 
     }
+    .whatsapp{
+        right:80px;
+        top:160px;
+        z-index: 9999;
+    }
 
     .nav {
         display: none !important;
@@ -1303,6 +1320,29 @@ td {
 
     .sponsers figure {
         width: 40%;
+    }
+    .content {
+        flex-direction: column;
+        padding: 0px !important;
+    }
+    .filter-section{
+        flex-direction: column;
+        padding:0 !important;
+    }
+    .gallery-filter ul{
+        flex-direction: column;
+        padding:0px !important;
+       
+    }
+    .search ul{
+        flex-direction: column !important;
+    }
+
+    .album-section{
+        flex-direction: column;
+    }
+    .album-section img{
+        width: 100%;
     }
 
     .content .form-container .row {
