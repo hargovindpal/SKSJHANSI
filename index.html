@@ -7,7 +7,6 @@
     <title>SKS JHANSI</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
@@ -468,10 +467,17 @@
                     style="border:1px solid rgb(212, 208, 208);" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+
+
+        
+
             <div class="content border box-shadow">
-                <form class="contact-form border" data-aos="zoom-in-left" data-aos-duration="2000">
+                <form class="contact-form border" data-aos="zoom-in-left" data-aos-duration="2000" action="https://api.web3forms.com/submit" method="POST">
                     <h2 class="heading">GET IN TOUCH WITH US-FORM</h2>
                     <div class="form-container">
+                         <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="00501825-b9e1-48ad-ad44-27e9c69e5ddc">
+
                         <div class="row">
                             <div class="item">
                                 <input type="text" id="name" name="name" placeholder="Enter Your Name">
@@ -493,6 +499,12 @@
                                     placeholder="Write a Message"></textarea>
                             </div>
                         </div>
+ <!-- Honeypot Spam Protection -->
+ <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            
+ <!-- Custom Confirmation / Success Page -->
+ <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
                         <div class="row">
                             <div class="item">
                                 <button id="button2" type="submit" name="submit">GET CONNECT</textarea>
